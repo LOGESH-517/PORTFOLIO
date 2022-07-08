@@ -1,0 +1,369 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+    body{
+        background-color:aquamarine;
+        font-family: 'Playfair Display', serif;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+       }
+     nav ul{
+        text-align: right;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-between;
+        list-style: none;
+        font-size: 1.25em;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: black;
+        margin-top: 1.0vh;
+     }
+     .logo-1 img{
+        padding-top: 2vh;
+        height:12vh;
+        width:6vw;
+        border-radius: 50px;
+     }
+     nav ul li{
+       margin: 0 20px;
+     }
+     .pic-1{
+       height: 60vh;
+       width: 30vw;
+       border: 2vh;
+       display: flex;
+       flex-direction: row;
+     }
+     header div p{
+       font-size: 2em;
+     }
+      header div h1{
+       font-size: 3em;
+       text-align: center;
+     }
+     header div{
+       height: 25vh;
+       width: 100vw;
+       background-color:azure;
+       margin-top: 2.5vh;
+     }
+     .interest-1{
+       text-align: center;
+       padding-top: 5vh;
+       font-size: 2.2rem;
+       font-family: 'Playfair Display', serif;
+     }
+     .topic-1{
+       font-size: 1.8rem;
+       /* padding-left: 1vw; */
+       font-family: 'Playfair Display', serif;
+     }
+     a{
+       color: black;
+       background-color: none;
+       text-decoration: none;
+       font-family: 'Playfair Display', serif;
+     }
+     .content-1{
+       font-size: 2em;
+       padding-top: 2.5vh;
+     }
+     .content{
+       display: flex;
+       flex-direction: row;
+       margin-top: 2vh;
+       font-size: larger;
+     }
+     .para-1{
+       padding-left: 2vw;
+     }
+     a:hover{
+       color: rgb(234, 50, 136);
+       background-color: aliceblue;
+     }
+    .myself-1{
+       padding-left: 3vw;
+       margin-bottom: 1vh;
+       font-size: 1em;
+       padding-top: 1vh;
+    }
+    .para-2{
+       font-size: 1em;
+       padding-top: 2vh;
+    }
+    .para-3{
+       font-size: 1em;
+       padding-top: 1vh;
+       padding-bottom: 1vh;
+    }
+    .para-4{
+       font-size: 1em;
+       padding-bottom: 1vh;
+    }
+    .word-1{
+       background-color: rgb(245, 235, 240);
+    }
+    .folio{
+       font-size: 2em;
+       padding-top: 8vh;
+       text-align: center;
+    }
+    .folio-1{
+       text-align: center;
+       font-size: 1.6em;
+       padding-top: 1.5vh;
+       padding-bottom: 2vh;
+    }
+    .program{
+       display: flex;
+       flex-direction: column;
+       justify-content:left;
+       text-align: left;
+    }
+    section ul{
+       margin: 0 20px;
+       text-decoration: none;
+       list-style: none;
+    }
+    .language{
+       height: 25vh;
+       width: 12vw;
+       border-radius: 180vh;
+       padding-top: 4.3vh;
+       padding-left: 4vw;
+    }
+    .word-6{
+       padding-top: 3vh;
+       font-family: 'Heebo', sans-serif;
+       font-size: 0.9em;
+       padding-left: 1vw;
+    }
+    .python{
+       height: 25vh;
+       width: 25vw;
+    }
+    .word-7{
+    padding-top: 3vh;
+    font-family: 'Heebo', sans-serif;
+    font-size: 0.9em;
+    list-style: none;
+    padding-left: 4.3vw;
+    }
+    .python-1{
+       height: 25vh;
+       width: 13vw;
+       border-radius: 150px;
+       padding-top: 4vh;
+       padding-left: 3vw;
+    }
+    .program-2{
+       display: flex;
+       flex-direction: column;
+       justify-content:left;
+       text-align: left;
+    }
+    .mix{
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       text-align: center;
+    }
+    .web{
+       height: 26vh;
+       width: 13vw;
+       border-radius: 45%;
+       padding-left: 3vw;
+       padding-top: 3.2vh;
+    }
+    .word-8{
+       padding-top: 1.8vh;
+       font-family: 'Heebo', sans-serif;
+       font-size: 0.9em;
+       list-style: none;
+       padding-left: 3vw;
+       text-decoration: none;
+       list-style: none;
+    }
+    .type{
+       height: 24vh;
+       width: 17vw;
+       padding-top: 4.1vh;
+       padding-left: 3vw;
+       border-radius: 50vh;
+    }
+    .word-9{
+       padding-top: 2.5vh;
+       font-family: 'Heebo', sans-serif;
+       font-size: 0.9em;
+       list-style: none;
+       padding-left: 3vw;
+       text-decoration: none;
+       list-style: none;
+    }
+    .education{
+       padding-top: 10vh;
+       font-family: 'Heebo', sans-serif;
+       text-align:center; 
+       font-size: 1.8em;
+    }
+    .tenth{
+       font-family: 'Heebo', sans-serif;
+       font-size: 1.4em;
+       padding-top: 5vh;
+    }
+    .twelth{
+       font-family: 'Heebo', sans-serif;
+       font-size: 1.4em;
+       padding-top: 5vh;
+       padding-left: 5vw;
+    }
+    .space{
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       text-align: center;
+    }
+    .diploma{
+       font-family: 'Heebo', sans-serif;
+       font-size: 1.3em;
+       padding-top: 5vh;
+       padding-left: 5vw;
+    }
+    .nptel{
+       font-family: 'Heebo', sans-serif;
+       font-size: 0.83em;
+       padding-top: 4vh;
+       padding-left: 3.5vw;
+    }
+    .writing{
+       font-family: 'Heebo', sans-serif;
+       font-size: 0.83em;
+       padding-top: 4vh;
+       padding-left: 5vw;
+       padding-bottom: 2.5vw;
+    }
+    .peace{
+     display: flex;
+     flex-direction:row-reverse;
+     justify-content: center;
+     text-align: center;
+    }
+    .skill{
+          font-size: 2em;
+       padding-top: 1.5vh;
+       text-align: center;
+       background-color: aliceblue;
+       justify-content: center;
+       display: flex;
+    }
+    .communication{
+       font-size: 1.25em;
+       font-family: 'Barlow', sans-serif;
+       padding-top: 5vh;
+    }
+    .hill{
+       display: flex;
+       flex-direction: row;
+       justify-content: left;
+       text-align: left;
+       padding-top: 4vh;
+    }
+    .tamil{
+       font-family: 'Barlow', sans-serif;
+       padding-left: 5vw;
+    }
+    .english{
+       font-family: 'Barlow', sans-serif;
+       padding-left: 5vw;
+    }
+    .beast{
+       font-size: 1.25em;
+       font-family: 'Barlow', sans-serif;
+       padding-top: 3vh;   
+    }
+    .tiger{
+       display: flex;
+       flex-direction: row;
+       justify-content: left;
+       text-align: left;
+       padding-top: 4vh;
+    }
+    .cat{
+       font-family: 'Barlow', sans-serif;
+       padding-left: 5vw;
+    }
+    .dog{
+       font-family: 'Barlow', sans-serif;
+       padding-left: 4vw;
+       font-size: 1em;
+    }
+    .fish{
+       font-size: 1.25em;
+       font-family: 'Barlow', sans-serif;
+       padding-top: 3vh; 
+    }
+    .chicken{
+       display: flex;
+       flex-direction: row;
+       justify-content: left;
+       text-align: left;
+       padding-left: 5vw;
+       padding-top: 4vh;
+    }
+    .varisu{
+       font-size: 1.25em;
+       font-family: 'Barlow', sans-serif;
+       padding-top: 3vh;
+    }
+    .master{
+       display: flex;
+       flex-direction: row;
+       justify-content: left;
+       text-align: left;
+       padding-left: 5vw;
+       padding-top: 4vh;
+       font-family: 'Barlow', sans-serif;
+    }
+    .CEO{
+       padding-top: 5vh;
+       font-size: 1.5em;
+       padding-left: 1vh;
+    }
+    .rrr{
+       padding-left: 5vh;
+       padding-top: 3.5vh;
+       font-size: 1.2em;
+       padding-bottom: 7vh;
+       font-family: 'Barlow', sans-serif;
+    }
+    progress[value]{
+       height: 1.5vh;
+       width: 7vw;
+       padding-top: 2.5vh;
+    }
+    .jilla{
+       padding-bottom: 2vh;
+       font-family: 'Roboto', sans-serif;
+    }
+    .sura{
+       padding-bottom: 2vh;
+       font-family: 'Roboto', sans-serif;
+    }
+    .kushi{
+       padding-bottom: 2vh;
+       font-family: 'Roboto', sans-serif;
+    }
+    .bagavathi{
+       padding-bottom: 1vh;
+    }
+    .vikram{
+       text-align: center;
+       font-size: 1.7em;
+       background-color: azure;
+       padding-bottom: 3vh;
+       justify-content: center;
+       padding-top: 3vh;
+    }
